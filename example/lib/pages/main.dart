@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-@GetxRoute('/')
+@GetxRoute('/', navId: 1)
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 

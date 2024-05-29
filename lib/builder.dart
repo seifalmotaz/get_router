@@ -9,6 +9,7 @@ Builder routeFuncGen(BuilderOptions options) => LibraryBuilder(
     );
 
 class GetxRoute {
+  final int? navId;
   final String path;
-  const GetxRoute(this.path);
+  const GetxRoute(this.path, {this.navId});
 }
