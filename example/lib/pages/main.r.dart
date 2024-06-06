@@ -4,6 +4,7 @@
 // RouteFuncGenerator
 // **************************************************************************
 
+// >> [{"path": "/", "funcName": "handlerMyHomePage"}]
 // Source library: package:example/pages/main.dart
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,6 @@ void toMyHomePage(String title) {
       // Pass constructor argument 'title'
       'title': title,
     },
-    id: 1,
   );
 }
 
